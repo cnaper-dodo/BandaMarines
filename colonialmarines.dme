@@ -1997,6 +1997,8 @@
 #include "code\modules\gear_presets\survivors\misc.dm"
 #include "code\modules\gear_presets\survivors\survivors.dm"
 #include "code\modules\gear_presets\survivors\corsat\preset_corsat.dm"
+#include "code\modules\gear_presets\survivors\enterprise_AG13\VAIPO.dm"
+#include "code\modules\gear_presets\survivors\enterprise_AG13\Weyland_Yutani_Commando.dm"
 #include "code\modules\gear_presets\survivors\fiorina_sciannex\preset_fiorina_sciannex.dm"
 #include "code\modules\gear_presets\survivors\fiorina_sciannex\riot_in_progress_insert_fiorina_nightmare.dm"
 #include "code\modules\gear_presets\survivors\kutjevo\preset_kutjevo.dm"
@@ -2730,5 +2732,4 @@
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
 #include "maps\_basemap.dm"
-#include "modular\modular.dme" // BANDASTATION EDIT
 // END_INCLUDE

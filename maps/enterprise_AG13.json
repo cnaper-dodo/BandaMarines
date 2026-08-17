@@ -6,16 +6,20 @@
     "webmap_url": "LV931",
 
     "survivor_types": [
-        "/datum/equipment_preset/survivor----------"
+        "/datum/equipment_preset/survivor/contractor",
+        "/datum/equipment_preset/survivor/contractor/duty/heavy",
+        "/datum/equipment_preset/survivor/contractor/duty/engi",
+        "/datum/equipment_preset/survivor/contractor/duty/medic"
     ],
 	"synth_survivor_types": [
-        "/datum/equipment_preset/synth/survivor/-------"
+        "/datum/equipment_preset/survivor/synth/contractor/duty"
     ],
 	"CO_survivor_types": [
-        "/datum/equipment_preset/survivor/---------/major"
+        "/datum/equipment_preset/survivor/contractor/duty/leader"
         ],
     "CO_insert_survivor_types": [
-        "/datum/equipment_preset/survivor/clf/coordinator"
+        "/datum/equipment_preset/survivor/clf/coordinator",
+        "/datum/equipment_preset/survivor/pmc/commando/leader"
     ],
     "colony_joe_types": [
         "/datum/job/civilian/working_joe/daniel"
@@ -27,14 +31,14 @@
         580,
         0.0
     ],
-    "survivor_message": "----------.",
-    "announce_text": "Пан-Пан. Говорит командир ККС \"Ганьют\", разведки КМП. В настоящее время мы находимся на планете LV-931 в непосредственной близости от \"Обьекта W-Y\". Мы не можем связаться с \"Обьектом\". Мы получили зашифрованный сигнал с данного обьекта, но он отсутвует в наших базах. Раследуйте что тут происходит",
+    "survivor_message": "Приём. Говорит ударный отряд ВАЙПО Омега-9. Мы потерпели крушение на объекте этой чертовой компании… Твою мать…  ЧТО ЭТО?!",
+    "announce_text": "Пушь-Пушь. Говорит командир ККС \"Ганьют\", разведки КМП. В настоящее время мы находимся на планете LV-931 в непосредственной близости от \"Обьекта W-Y\". Мы не можем связаться с \"Обьектом\". Мы получили зашифрованный сигнал с данного обьекта, но он отсутвует в наших базах. Раследуйте что тут происходит",
     "map_item_type": "-----",
 	"co_briefing": {
-        "Hawks": "maps/map_briefings/commanding_officer/chances/CHANCEScpo.html",
-        "Doves": "maps/map_briefings/commanding_officer/chances/CHANCEShmm.html",
-        "Magpies": "maps/map_briefings/commanding_officer/chances/CHANCESmodi.html",
-        "Unaligned": "maps/map_briefings/commanding_officer/chances/CHANCESunaligned.html"
+        "Hawks": "maps/map_briefings/commanding_officer/enterprise_AG13/AG13cpo.html",
+        "Doves": "maps/map_briefings/commanding_officer/enterprise_AG13/AG13hmm.html",
+        "Magpies": "maps/map_briefings/commanding_officer/enterprise_AG13/AG13modi.html",
+        "Unaligned": "maps/map_briefings/commanding_officer/enterprise_AG13/AG13unaligned.html"
     },
     "monkey_types": [
         "neaera",

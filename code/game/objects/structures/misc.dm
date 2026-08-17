@@ -533,6 +533,7 @@
 	playsound(src, 'sound/effects/thud1.ogg', 50)
 	new /obj/item/dartboard/(loc)
 	qdel(src)
+/obj/structure/prop/enterprise
 
 /obj/structure/prop/enterprise/pmc
 	name = "Dead body"
@@ -540,8 +541,6 @@
 	icon_state = "pmc_dead"
 	health = 3000
 	layer = ABOVE_FLY_LAYER
-	bound_height = 96
-	bound_width = 96
 	density = TRUE
 
 /obj/structure/prop/enterprise/tank

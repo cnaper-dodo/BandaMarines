@@ -60,6 +60,7 @@
 	icon_state = "central"
 	name = "Surface Exterior - South Bunker Exterior"
 
+	linked_lz = DROPSHIP_LZ1
 /area/enterprise_AG13/outdoors/surface_exterior/south
 	icon_state = "central"
 	name = "Surface Exterior - South"
