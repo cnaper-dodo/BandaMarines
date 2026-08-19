@@ -19,7 +19,6 @@
 	name = "Bunker AG13 - Outdoors"
 	icon_state = "unknown"
 	ceiling = CEILING_NONE
-	soundscape_playlist = AMBIENCE_LASTBUNKER
 	temperature = ICE_COLONY_TEMPERATURE
 
 /area/enterprise_AG13/oob
@@ -35,7 +34,6 @@
 
 /area/enterprise_AG13/oob/surface_light
 	base_lighting_alpha = 35
-	soundscape_playlist = AMBIENCE_LASTBUNKER
 
 //Landing Zones
 
@@ -192,7 +190,7 @@
 // --
 
 /area/enterprise_AG13/indoors/hanger_zone
-	name = "Bunker AG13 - Hanger Zone"Expand commentComment on lines R202 to R203ResolvedExpand commentComment on lines R202 to R203ResolvedExpand commentComment on line R203Resolved
+	name = "Bunker AG13 - Hanger Zone"
 	minimap_color = MINIMAP_AREA_ENGI_CAVE
 	icon_state = "dk_yellow"
 
@@ -260,8 +258,7 @@
 // --
 
 /area/enterprise_AG13/oob/manufactory
-	name = "Bunker AG13 - Primary manufactory
-	icon_state = "engine"
+	name = "Bunker AG13 - Primary manufactory"
 
 // --
 
