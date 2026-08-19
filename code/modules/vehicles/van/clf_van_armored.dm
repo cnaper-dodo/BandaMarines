@@ -105,21 +105,21 @@
 /*
 ** PRESETS SPAWNERS
 */
-/obj/effect/vehicle_spawner/van/clf/armored
+/obj/effect/vehicle_spawner/van/clf_armored
 	name = "CLF Armored van"
 	icon = 'icons/obj/vehicles/CLF_van_armored.dmi'
 	icon_state = "van_armored_base"
 	pixel_x = -48
 	pixel_y = -48
 
-/obj/effect/vehicle_spawner/van/armored/Initialize()
+/obj/effect/vehicle_spawner/van_armored/Initialize()
 	. = ..()
 	spawn_vehicle()
 	qdel(src)
 
 //PRESET: no hardpoints
-/obj/effect/vehicle_spawner/van/armored/spawn_vehicle()
-	var/obj/vehicle/multitile/van/armored/ARM_VAN = new (loc)
+/obj/effect/vehicle_spawner/van_armored/spawn_vehicle()
+	var/obj/vehicle/multitile/van_armored/ARM_VAN = new (loc)
 
 	load_misc(ARM_VAN)
 	load_hardpoints(ARM_VAN)
@@ -127,12 +127,12 @@
 	ARM_VAN.update_icon()
 
 //PRESET: only wheels installed
-/obj/effect/vehicle_spawner/van/armored/load_hardpoints(obj/vehicle/multitile/van/armored/V)
+/obj/effect/vehicle_spawner/van_armored/load_hardpoints(obj/vehicle/multitile/van/armored/V)
 	V.add_hardpoint(new /obj/item/hardpoint/locomotion/van_wheels)
 
 //PRESET: default hardpoints, destroyed
-/obj/effect/vehicle_spawner/van/armored/decrepid/spawn_vehicle()
-	var/obj/vehicle/multitile/van/armored/ARM_VAN = new (loc)
+/obj/effect/vehicle_spawner/van_armored/decrepid/spawn_vehicle()
+	var/obj/vehicle/multitile/van_armored/ARM_VAN = new (loc)
 
 	load_misc(ARM_VAN)
 	load_hardpoints(ARM_VAN)
@@ -141,6 +141,6 @@
 	ARM_VAN.update_icon()
 
 //PRESET: MG
-/obj/effect/vehicle_spawner/van/armored/mg/load_hardpoints(obj/vehicle/multitile/apc/arc/V)
+/obj/effect/vehicle_spawner/van_armored/mg/load_hardpoints(obj/vehicle/multitile/apc/arc/V)
 	V.add_hardpoint(new /obj/item/hardpoint/locomotion/van_wheels)
 	V.add_hardpoint(new /obj/item/hardpoint/primary/van_mg)
