@@ -805,6 +805,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo"
 	},
+/obj/item/hardpoint/locomotion/apc_wheels/pmc,
 /turf/open/floor/corsat/squares,
 /area/space)
 "ayI" = (
@@ -12600,6 +12601,13 @@
 /obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/interior/wood,
 /area/space)
+"gKO" = (
+/obj/structure/machinery/door/poddoor/almayer/biohazard/white{
+	id = ''Zone1''
+	},
+/obj/effect/decal/heavy_cable/cable_horizontal,
+/turf/open/floor/plating,
+/area/space)
 "gLg" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo"
@@ -12809,6 +12817,9 @@
 	},
 /obj/structure/barricade/handrail/wire{
 	dir = 8
+	},
+/obj/structure/machinery/power/power_generator/reactor/colony{
+	name = "\improper Fusion reactor G-13r"
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/space)
@@ -13732,6 +13743,9 @@
 /obj/structure/barricade/handrail/wire{
 	dir = 1;
 	pixel_y = 10
+	},
+/obj/structure/machinery/power/power_generator/reactor/colony{
+	name = "\improper Fusion reactor G-13r"
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/space)
@@ -15184,7 +15198,9 @@
 "icr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/ammo_magazine/rifle/heap/empty,
-/obj/structure/prop/enterprise/tank,
+/obj/structure/prop/enterprise/tank{
+	examine_thats = "Это страшная боевая машина. Что она тут делает в таком состоянии?"
+	},
 /turf/open/floor/strata,
 /area/space)
 "icv" = (
@@ -19662,6 +19678,9 @@
 /obj/structure/barricade/handrail/wire{
 	layer = 3.1
 	},
+/obj/structure/machinery/power/power_generator/reactor/colony{
+	name = "\improper Fusion reactor G-13r"
+	},
 /turf/open/floor/plating/plating_catwalk,
 /area/space)
 "krJ" = (
@@ -22595,6 +22614,9 @@
 	dir = 1;
 	pixel_y = 10
 	},
+/obj/structure/machinery/power/power_generator/reactor/colony{
+	name = "\improper Fusion reactor G-13r"
+	},
 /turf/open/floor/plating/plating_catwalk,
 /area/space)
 "lWs" = (
@@ -23081,6 +23103,10 @@
 	pixel_x = -6
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/door_control/brbutton{
+	pixel_y = 22;
+	id = ''Zone1''
+	},
 /turf/open/floor/corsat/brown/north,
 /area/space)
 "mjL" = (
@@ -25826,11 +25852,6 @@
 /area/space)
 "nQK" = (
 /obj/structure/closet/crate/medical,
-/obj/item/xeno_egg,
-/obj/item/xeno_egg,
-/obj/item/xeno_egg,
-/obj/item/xeno_egg,
-/obj/item/xeno_egg,
 /obj/effect/decal/hybrisa/dirt,
 /obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/shiva/yellow/east,
@@ -31201,6 +31222,13 @@
 /obj/structure/prop/ice_colony/ground_wire,
 /obj/effect/alien/weeds/node,
 /turf/open/predship/mainfloor/direction_1,
+/area/space)
+"qJq" = (
+/obj/item/xeno_egg/alpha,
+/obj/structure/closet/crate/secure/phoron{
+	name = "secure freazer crate"
+	},
+/turf/open/floor/corsat/red/west,
 /area/space)
 "qJw" = (
 /obj/structure/window/framed/hybrisa/colony/engineering/hull,
@@ -38933,8 +38961,10 @@
 /turf/open/floor/almayer/black2/northeast,
 /area/space)
 "uOb" = (
-/obj/structure/machinery/door/poddoor/almayer/biohazard/white,
 /obj/effect/decal/heavy_cable/cable_horizontal,
+/obj/structure/machinery/door/poddoor/almayer/biohazard/white{
+	id = ''Zone1''
+	},
 /turf/open/floor/plating,
 /area/space)
 "uOx" = (
@@ -40804,6 +40834,9 @@
 "vKc" = (
 /obj/structure/barricade/handrail/wire{
 	layer = 3.1
+	},
+/obj/structure/machinery/power/power_generator/reactor/colony{
+	name = "\improper Fusion reactor G-13r"
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/space)
@@ -43943,6 +43976,9 @@
 /obj/structure/barricade/handrail/wire{
 	dir = 1;
 	pixel_y = 10
+	},
+/obj/structure/machinery/power/power_generator/reactor/colony{
+	name = "\improper Fusion reactor G-13r"
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/space)
@@ -97028,7 +97064,7 @@ vCL
 vCL
 vCL
 hWM
-dSD
+qJq
 kcv
 jYO
 bsq
@@ -102466,10 +102502,10 @@ fKZ
 bAQ
 oDW
 gNd
-uOb
+gKO
 gaP
 gaP
-uOb
+gKO
 lDv
 gaP
 uOb
